@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(Oswald.ttf);
+}
+html,body{
+    overflow-x: hidden;
+}
+.head-div{
+    background: #000933;
+}
+.name-head{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#home{
+    background: #edeffd;
+    height: 45em;
+}
+.img-fluid{
+    filter: drop-shadow(1px 1px 10px rgb(175, 175, 175));
+}
+.detail-1{
+    font-family: 'Oswald';
+    letter-spacing: 0.1em;
+    margin-left: 5rem;
+    color: #000933;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.quote{
+    font-family: 'Oswald';
+    margin-left: 5rem;
+    color: #000933;
+    font-size: medium;
+}
+.card-img-top{
+    width: 30rem;
+}
+.skills{
+    color: #000933;
+}
+.card{
+    color: #000933;
+}
+.card:hover{
+    background-color: #000933;
+    color: white;
+    box-shadow: none;
+}
+footer{
+    background: #edeffd;
+}
+.social{
+    padding-left: 32rem;
+    color: #000933;
+}
+.font-oswald{
+    font-family: 'Oswald';
+}
