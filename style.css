@@ -1,6 +1,12 @@
 @font-face {
     font-family: 'Oswald';
-    src: url(Oswald.ttf);
+    src: url(Fonts/Oswald.ttf);
+    font-family: 'Montserrat-light';
+    src: url(Fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(Fonts/Montserrat-SemiBold.ttf);
 }
 html,body{
     overflow-x: hidden;
@@ -8,15 +14,13 @@ html,body{
 .head-div{
     background: #000933;
 }
-.name-head{
-    font-family: Arial, Helvetica, sans-serif;
-}
 #home{
     background: #edeffd;
     height: 45em;
 }
 .img-fluid{
     filter: drop-shadow(1px 1px 10px rgb(175, 175, 175));
+    border-radius: 50%;
 }
 .detail-1{
     font-family: 'Oswald';
@@ -27,7 +31,7 @@ html,body{
     margin-top: 10px;
 }
 .quote{
-    font-family: 'Oswald';
+    font-family: 'Montserrat-Light';
     margin-left: 5rem;
     color: #000933;
     font-size: medium;
@@ -38,6 +42,7 @@ html,body{
 .skills{
     color: #000933;
 }
+
 .card{
     color: #000933;
 }
@@ -55,4 +60,10 @@ footer{
 }
 .font-oswald{
     font-family: 'Oswald';
+}
+.font-montserrat{
+    font-family: 'Montserrat-light';
+}
+.font-montserrat-semiBold{
+    font-family: 'Montserrat-SemiBold';
 }
