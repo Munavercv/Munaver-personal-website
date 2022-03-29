@@ -12,6 +12,9 @@ html,body{
     overflow-x: hidden;
 }
 
+#full-body{
+    display: none;
+}
 /* loader */
 .loaderelement{
     position: absolute;
